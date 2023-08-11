@@ -20,6 +20,11 @@ class TypographyStyle {
       fontSize: 14,
       fontWeight: FontWeight.w400,
       color: ColorThemes.grey);
+      static TextStyle descriptionFont= TextStyle(
+      fontFamily: GoogleFonts.inter().fontFamily,
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      color: ColorThemes.grey);
   static TextStyle caption1Regular = const TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.w400,
