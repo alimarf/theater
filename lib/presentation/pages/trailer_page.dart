@@ -34,7 +34,6 @@ class _TrailerPageState extends State<TrailerPage> {
       body: SingleChildScrollView(
         child: Column(children: [
           Container(
-            
             child: Stack(
               children: [
                 _controller.value.isInitialized
@@ -84,8 +83,16 @@ class _TrailerPageState extends State<TrailerPage> {
             textAlign: TextAlign.left,
             style: TypographyStyle.descriptionFont,
           ),
-          Text('Deskripsi',textAlign: TextAlign.left,
-            style: TypographyStyle.descriptionFont,)
+          Text(
+            'Deskripsi',
+            textAlign: TextAlign.left,
+            style: TypographyStyle.descriptionFont,
+          ),
+          Text(
+            'Genre',
+            textAlign: TextAlign.left,
+            style: TypographyStyle.descriptionFont,
+          )
         ]),
       ),
     );
