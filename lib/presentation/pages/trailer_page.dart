@@ -83,7 +83,9 @@ class _TrailerPageState extends State<TrailerPage> {
             'Movie Trailer',
             textAlign: TextAlign.left,
             style: TypographyStyle.descriptionFont,
-          )
+          ),
+          Text('Deskripsi',textAlign: TextAlign.left,
+            style: TypographyStyle.descriptionFont,)
         ]),
       ),
     );
