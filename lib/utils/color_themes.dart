@@ -1,9 +1,22 @@
 import 'package:flutter/material.dart';
 
 class ColorThemes {
+
+  static const white = Color(0xFFFFFFFF);
+  static const orange = Color(0xFFDA6F0D);
+  static const grey = Color(0xFF646464);
+  static const lightGrey = Color(0xFF242424);
+  static const backgroundColor = Color(0xFF161616);
+  static const filterGray = Color(0xFFC4C4C4);
+  static const filterOrange = Color(0xFFECA96B);
+  static const dateColor = Color(0xFF959595);
+
+
+
+
   static const primaryColor = Color(0xFF24374D);
   static const secondaryColor = Color(0xFF446892);
-  static const backgroundColor = Color(0xFFF8F8FA);
+
   static const greenColor = Color(0xFF00C875);
   static const redColor = Color(0xFFCB3A31);
   static const blackColor = Color(0xFF000000);

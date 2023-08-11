@@ -1,8 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'color_themes.dart';
 
 class TypographyStyle {
   //Regular
+
+  static TextStyle titleFont = TextStyle(
+      fontFamily: GoogleFonts.inter().fontFamily,
+      fontSize: 20,
+      fontWeight: FontWeight.w400,
+      color: ColorThemes.white);
+  static TextStyle sidebarFont = TextStyle(
+      fontFamily: GoogleFonts.inter().fontFamily,
+      fontSize: 15,
+      fontWeight: FontWeight.w400,
+      color: ColorThemes.white);
+  static TextStyle releaseDateFont = TextStyle(
+      fontFamily: GoogleFonts.inter().fontFamily,
+      fontSize: 14,
+      fontWeight: FontWeight.w400,
+      color: ColorThemes.grey);
   static TextStyle caption1Regular = const TextStyle(
       fontSize: 12,
       fontWeight: FontWeight.w400,
