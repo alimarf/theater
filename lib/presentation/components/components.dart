@@ -11,4 +11,3 @@ import '../../utils/color_themes.dart';
 import '../../utils/typography_style.dart';
 
 part 'movie_trailer_component.dart';
-part 'trailer_component.dart';
