@@ -59,6 +59,7 @@ class MovieTrailerComponent extends StatelessWidget {
                   ],
                 )),
             ListView.builder(
+              padding: const EdgeInsets.only(bottom: 80),
               shrinkWrap: true,
               primary: false,
               itemCount: 10,

@@ -11,9 +11,6 @@ class ColorThemes {
   static const filterOrange = Color(0xFFECA96B);
   static const dateColor = Color(0xFF959595);
 
-
-
-
   static const primaryColor = Color(0xFF24374D);
   static const secondaryColor = Color(0xFF446892);
 
