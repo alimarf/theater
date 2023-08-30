@@ -65,11 +65,11 @@ class _MainPageState extends State<MainPage> {
           children: [
             bottomItem(
               icon: _selectedIndex == 0
-                  ? Icon(
+                  ? const Icon(
                       Icons.home,
                       color: ColorThemes.orange,
                     )
-                  : Icon(Icons.home),
+                  : const Icon(Icons.home),
               title: 'Home',
               onTap: () {
                 setState(() {
@@ -79,11 +79,11 @@ class _MainPageState extends State<MainPage> {
             ),
             bottomItem(
               icon: _selectedIndex == 1
-                  ? Icon(
+                  ? const Icon(
                       Icons.play_circle_fill,
                       color: ColorThemes.orange,
                     )
-                  : Icon(Icons.play_circle_fill),
+                  : const Icon(Icons.play_circle_fill),
               title: 'Trailer',
               onTap: () {
                 setState(() {
